@@ -1,2 +1,1 @@
-curl http://localhost:3000/web_model/model.json
-yarn start
+`yarn start` then `curl http://localhost:3000/web_model/model.json`
