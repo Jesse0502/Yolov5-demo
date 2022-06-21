@@ -58,6 +58,7 @@ class Yolo extends React.Component {
     const c = document.getElementById("canvas");
     const ctx = c.getContext("2d");
     this.cropToCanvas(e.target, c, ctx);
+
     let [modelWidth, modelHeight] = this.state.model.inputs[0].shape.slice(
       1,
       3

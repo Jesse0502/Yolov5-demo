@@ -81,4 +81,5 @@ export const names = [
   "toothbrush",
 ];
 
-export const weights = "http://localhost:3000/web_model/model.json";
+export const weights =
+  "https://jesse0502.github.io/Yolov5-demo/web_model/model.json";
